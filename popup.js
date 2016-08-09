@@ -11,7 +11,7 @@ app.controller('cricket',function($scope,$http){
 				   $scope.second=response.name;
 				   $scope.third=response.country;
 				   $scope.fourth=response.battingStyle;
-					$scope.fifth=response.bowlingStyle
+				$scope.fifth=response.bowlingStyle;
 					
 	  });//10582
 			}
